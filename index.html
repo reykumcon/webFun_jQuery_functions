@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Functions</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./jQuery_functions.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">jQUERY FUNCTION BASICS</h1>
+        <div class="functions" id="addRemoveClass">
+            <h1>addClass() and removeClass()</h1>
+            <button id="add">addClass()</button>
+            <button id="remove">removeClass()</button>
+            <p>Click the button to add class 'blue' to this paragraph</p>
+        </div>
+        <div class="functions" id="toggling">
+            <h1>slideToggle()</h1>
+            <button id="slideToggle">slideToggle()</button>
+            <button id="toggle">toggle()</button>
+            <p>Click the button to toggle the paragraph</p>
+        </div>
+        <div class="functions" id="appendPrepend">
+            <h1>append() and prepend()</h1>
+            <button class="before">prepend()</button>
+            <button class="after">append()</button>
+            <p id="main">Click the button to add at the start or at the end</p>
+        </div>
+        <div class="functions" id="beforeAfter">
+            <h1>before() and after()</h1>
+            <button class="before">before()</button>
+            <button class="after">after()</button>
+            <p id="main">Click the button to add before or after this paragraph</p>
+        </div>
+        <div class="functions" id="fadeInOut">
+            <h1>fadeIn() and fadeOut()</h1>
+            <button id="fadeIn">fadeIn()</button>
+            <button id="fadeOut">fadeOut()</button>
+            <p>Click the button to toggle this paragraph using fade</p>
+        </div>
+        <div class="functions" id="hideShow">
+            <h1>hide() and show()</h1>
+            <button id="hide">hide()</button>
+            <button id="show">show()</button>
+            <p>Click the button to hide or show this paragraph</p>
+        </div>
+        <div class="functions" id="slideUpDown">
+            <h1>slideUp() and slideDown()</h1>
+            <button id="slideUp">slideUp()</button>
+            <button id="slideDown">slideDown()</button>
+            <p>Click the button to slide this paragraph up and down</p>
+        </div>
+        <div class="functions" id="htmlFunction">
+            <h1>html()</h1>
+            <button id="withParam">html(param)</button>
+            <button id="withoutParam">html()</button>
+            <p>Click the button to either show or change the content of the element</p>
+        </div>
+        <div class="functions" id="attrFunction">
+            <h1>attr()</h1>
+            <button id="attrWithParam">attr(attribute:value)</button>
+            <button id="attrWithoutParam">attr()</button>
+            <p id="id_paragraph">Click the button to get or set the id attribute of this paragraph</p>
+        </div>
+        <div class="functions" id="textFunction">
+            <h1>text()</h1>
+            <button id="textWithParam">text(param)</button>
+            <button id="textWithoutParam">text()</button>
+            <p>Click the button to get or set the text of this paragraph</p>
+        </div>
+        <div class="functions" id="valFunction">
+            <h1>val()</h1>
+            <button id="valWithParam">val(param)</button>
+            <button id="valWithoutParam">val()</button>
+            <p>Click the button to get or set the value of the input form</p>
+            <p>Name: <input type="text" name="name" id="name" value="Rey Con"> </p>
+        </div>
+    </div>
+</body>
+</html>
